@@ -47,7 +47,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder>{
     // метод getItemCount() возвращает количество объектов в списке
     @Override
     public int getItemCount() {
-        return item.size();
+        return items.size();
     }
 
     // созданный статический класс ViewHolder
